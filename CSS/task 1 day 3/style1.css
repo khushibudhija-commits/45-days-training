@@ -1,0 +1,45 @@
+.home {
+  background-color: white;
+  padding: 20px;
+}
+.div {
+  display: inline-block;
+}
+.image {
+  width: 700px;
+  height: 700px;
+  border-radius: 15px;
+}
+.text {
+  display: inline-block;
+}
+.nature {
+  margin: 50px 50px;
+  font-size: 50px;
+  background-color: bisque;
+  color: brown;
+  border-radius: 15px;
+  padding: 10px 10px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 600;
+  display: inline;
+}
+.explore {
+  font-weight: 800;
+  font-size: 60px;
+  margin: 50px 50px;
+  font: bold;
+}
+.paragraph {
+  font-weight: 800;
+  font-size: 20px;
+  margin: 50px 50px;
+  font: bold;
+}
+.button {
+  color: white;
+  background-color: blue;
+  padding: 10px 10px;
+  border-radius: 5px 5px;
+  margin: 0px 50px;
+}

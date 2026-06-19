@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Student Information</h1>
+        <p>Welcome to our student information page.Here you can fill the registration form and view the
+            list of students.
+        </p>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Register</a>
+            <a href="#">Students</a>
+            <a href="#">About</a>
+        </nav>
+    </header>
+    <hr>
+    <form action="#" method="post">
+    <section>
+        <div>
+            <h2> 1.Student Registration Form</h2>
+            <p>Please fill in the details below to register.</p>
+            <label for="fullname">Full Name:</label>
+            <input type="text" id="fullname" name="fullname" placeholder="Full Name";>
+            <br>
+             <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="email";>
+            <br>
+             <label for="rollnumber">Roll Number:</label>
+            <input type="number" id="rollnumber" name="rollnumber" placeholder="rollnumber";>
+            <br>
+            <label for="course">Course:</label>
+            <select id="course" name="course" placeholder="Course";>
+                <option>Select</option>
+                <option>BTECH</option>
+                <option>B PHARMA</option>
+                <option>BCA</option>
+                <option>BA</option>
+            </select>
+            <br>
+            <label for="Gender">Gender:</label>
+            <label for="gender">Male</label>
+            <input type="radio" id="gender" name="gender" value="Male";>
+            <label for="gender">Female</label>
+            <input type="radio" id="gender" name="gender" value="Female";>
+            <br>
+            <label for="dob">Date Of Birth:</label>
+            <input type="date" id="dob" name="dob">
+            <br>
+            <label for="address">Address</label>
+            <input type="text" name="address" id="address" placeholder="address";>
+            <br>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </div>
+        <div>
+            <h2>2.List Of Students</h2>
+            <p>Below is the list of registered students:</p>
+            <table border="1">
+                <tr>
+                        <th>No.</th>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Course</th>
+                        <th>Roll Number</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Rahul Sharma</td>
+                    <td>rahul@example.com</td>
+                    <td>Computer Science</td>
+                    <td>101</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Priya Verma</td>
+                    <td>priya@example.com</td>
+                    <td>Information Technology</td>
+                    <td>102</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Amit Singh</td>
+                    <td>amit@example.com</td>
+                    <td>Electronics</td>
+                    <td>103</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Neha Gupta</td>
+                    <td>neha@example.com</td>
+                    <td>Mechanical Engineering</td>
+                    <td>104</td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <h2>3.About This Page</h2>
+            <p>This page is made using only HTML.It demonstrate the use of:</p>
+            <ul>
+                <li>Forms and input field</li>
+                <li>Tables to display data</li>
+                <li>Semantic HTML elements</li>
+                <li>Accessibility basics</li>
+            </ul>
+            <p>We use proper labels for form fields and table headers for better accessibility.</p>
+        </div>
+    </section>
+    </form>
+    <hr>
+    <footer>
+<p >&copy; 2024 Student Information Page</p>
+    </footer>
+</body>
+</html>

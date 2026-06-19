@@ -1,0 +1,104 @@
+* {
+   font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  box-sizing: border-box;
+}
+.body {
+  background-color: rgb(5, 18, 53);
+}
+.navlinks {
+  position: fixed;
+  height: 5vh;
+}
+.linkscolor {
+  color: whitesmoke;
+  margin: 15px 15px;
+}
+.links {
+  display: inline-block;
+  width: 27vw;
+  height: 5vh;
+  border-radius: 10px;
+  background-color: rgb(51, 54, 77);
+  padding: 5px 5px;
+  margin: 20px 20px;
+  position: fixed;
+}
+.linkscolor:hover {
+  color: red;
+  display: inline-block;
+  background-color: cadetblue;
+  border-radius: 5px;
+  padding: 2px 2px;
+}
+.linkscolor:active {
+  color: blue;
+}
+.logo {
+  width: 33vw;
+  display: inline-block;
+  display: fixed;
+}
+.heading,
+.paragraph {
+  color: white;
+  text-align: center;
+   margin: 20px 20px;
+}
+.div1,
+.div2 {
+  display: flex;
+  display: inline-block;
+  background-color: rgb(51, 54, 77);
+  width: 250px;
+  height: 250px;
+  margin: 10px 10px;
+  border-radius: 25px;
+  position: relative;
+  padding: 10px 10px;
+  /* align-items: center; */
+  /* justify-content: center; */
+ 
+}
+.container {
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+}
+.container1 {
+  margin-left: 100px;
+  margin-right: 100px;
+  align-items: center;
+  justify-content:center;
+}
+.container2 {
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  
+  align-items: center;
+  justify-content:center;
+}
+.image{
+position: absolute;
+}
+.head{
+    background-color: rgb(33, 27, 36);
+    
+  align-items: center;
+  justify-content:center;
+    
+}
+.body::selection{
+    color:darkgreen ;
+    background-color: palegreen;
+}
+.headings{
+    color:white;
+}
+.paragraph{
+    color:white;
+}

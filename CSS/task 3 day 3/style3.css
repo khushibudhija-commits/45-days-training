@@ -1,0 +1,97 @@
+  .fullbody{
+      background-color:rgb(12, 7, 46);
+  }
+.container {
+  text-align: center;
+  margin: 0px 10px;
+}
+.name{
+    width: 100%;
+}
+.heading {
+  font: bolder;
+  color:white;
+}
+.paragraph {
+  color: gray;
+  font: bold;
+}
+.centersection {
+  padding: 30px 50px;
+  margin: 0px 20px;
+}
+.input1,
+.input2 {
+    width: 40vw;
+  color: black;
+  display: inline;
+  border-radius: 15px;
+  margin: 20px 20px;
+  padding: 5px 5px;
+  font-size: x-large;   
+  border-color: rgb(191, 80, 238);
+  
+}
+.label1,
+.label2 {
+  color:white;
+  font-size: x-large;
+  padding: 10px 10px;
+  margin: 10px 10px;
+}
+.label1,
+.input1 {
+  display: block;
+}
+.label2,
+.input2 {
+  display: block;
+}
+.div1,
+.div2 {
+  display: inline-block;
+}
+.label3 {
+  display: block;
+  color:white;
+  font-size: x-large;
+  padding: 10px 10px;
+  margin: 10px 10px;
+}
+.input3 {
+  display: block;
+  border-radius: 25px;
+  border-color: darkviolet;
+  color: black;
+  font-size: x-large;
+  padding: 10px 10px;
+  margin: 10px 10px;
+  width: 100%;
+}
+.text{
+  padding: 10px 10px;
+  margin: 10px 10px;
+  display: block;
+  border-radius: 25px;
+  border-color: darkviolet;
+  color: black;
+  font-size: x-large;
+  width: 100%;
+}
+.msg {
+  padding: 10px 10px;
+  margin: 20px 20px;
+  color:white;
+  font-size: x-large;
+}
+.button {
+  color: black;
+  background-color: blueviolet;
+  display: block;
+  border-radius: 25px;
+  border: 20px 20px;
+  margin: 50px 50px;
+  padding: 5px 5px;
+  text-align: center;
+  font-size: xx-large;
+}

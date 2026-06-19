@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css" />
+  </head>
+  <body class="box">
+    <div class="container">
+      <div class="time">
+        <h1 class="heading" id="clock">00:00</h1></div>
+        <div class="dateclass" id="date">
+          <h2>00-00-0000</h2>
+        </div>
+      
+    </div>
+        <script>
+          function showTime() {
+            let now = new Date();
+            let Time = `${now.getHours()}:${now.getMinutes()}:${now.getSeconds()}`;
+            document.getElementById("clock").innerHTML = Time;
+          }
+          
+
+          function showDate() {
+            let today = new Date();
+            let date = `${today.getDate()} - ${today.getMonth()+1} - ${today.getFullYear()} `;
+            document.getElementById("date").innerHTML = date;
+          }
+            showTime();
+          showDate();
+          setInterval(showDate, 1000);
+          setInterval(showTime, 1000);
+        </script>
+  </body>
+</html>
